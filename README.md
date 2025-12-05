@@ -1,5 +1,3 @@
-# -ERC-20-Token
-
 # MyToken Smart Contract – Remix Walkthrough
 
 This README documents the full process shown in your screenshots, including deployment,
@@ -11,7 +9,7 @@ testing transfers, approvals, and viewing token information in Remix.
 
 The contract `MyToken.sol` is compiled using Solidity version **0.8.30** as shown:
 
-![Compiler](/mnt/data/compliance.png)
+![Compiler](/screenshots/compilation.png)
 
 ---
 
@@ -26,7 +24,7 @@ In your case:
 
 Deployment confirmation:
 
-![Deployment](/mnt/data/Deployment.png)
+![Deployment](/screenshots/Deployment.png)
 
 ---
 
@@ -49,7 +47,7 @@ Example UI view:
 
 Remix logs events emitted by transfers and approvals:
 
-![Events](/mnt/data/Events.png)
+![Events](/screenshots/Events.png)
 
 ---
 
@@ -62,7 +60,7 @@ Initial failed transfers occurred due to:
 
 Examples:
 
-![Transfer Test](/mnt/data/Transfer Test.png)
+![Transfer Test](/screenshotsTransfer_Test.png)
 
 Once parameters were corrected, your calls succeeded.
 
@@ -72,7 +70,7 @@ Once parameters were corrected, your calls succeeded.
 
 Token balance inspection for different addresses:
 
-![Balance](/mnt/data/Balance.png)
+![Balance](/screenshots/Balance.png)
 
 ---
 
