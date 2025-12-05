@@ -9,7 +9,6 @@ testing transfers, approvals, and viewing token information in Remix.
 
 The contract `MyToken.sol` is compiled using Solidity version **0.8.30** as shown:
 
-![Compiler](/screenshots/compilation.png)
 
 ---
 
@@ -21,11 +20,6 @@ In your case:
 ```
 1000000000000000000000000
 ```
-
-Deployment confirmation:
-
-![Deployment](/screenshots/Deployment.png)
-
 ---
 
 ## 📌 3. Checking Balances & Token Metadata
@@ -37,17 +31,11 @@ After deployment, you viewed:
 - **decimals**
 - **totalSupply**
 
-Example UI view:
-
-![Token Info](/mnt/data/Token Info.png)
-
 ---
 
 ## 📌 4. Events Panel
 
 Remix logs events emitted by transfers and approvals:
-
-![Events](/screenshots/Events.png)
 
 ---
 
@@ -58,10 +46,6 @@ Initial failed transfers occurred due to:
 - Sending tokens to **address(0)** (not allowed)
 - Insufficient balance when sending a large amount
 
-Examples:
-
-![Transfer Test](/screenshotsTransfer_Test.png)
-
 Once parameters were corrected, your calls succeeded.
 
 ---
@@ -69,9 +53,6 @@ Once parameters were corrected, your calls succeeded.
 ## 📌 6. Balance Checks
 
 Token balance inspection for different addresses:
-
-![Balance](/screenshots/Balance.png)
-
 ---
 
 ## 📌 7. Approvals & Allowances
@@ -81,11 +62,6 @@ You tested:
 - `approve(spender, value)`
 - `transferFrom(from, to, value)`
 - Checking `allowance(owner, spender)`
-
-Example interaction:
-
-![Approval](/mnt/data/Screenshot 2025-12-05 213804.png)
-
 ---
 
 ## ✅ Summary
